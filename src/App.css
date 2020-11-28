@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .App {
+    display: inline-block;
+    width: 100%;
+  }
+}

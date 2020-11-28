@@ -1,0 +1,24 @@
+$position-relative: relative;
+$position-absolute: absolute;
+$font-pr: "ProximaNova Regular";
+$margin-bottom: 15px;
+$clear: both;
+$width: 100%;
+$float: left;
+$overflow: hidden;
+$text-align: center;
+$line-height: normal;
+
+section {
+  position: $position-relative;
+  font-family: $font-pr;
+  margin-bottom: $margin-bottom;
+  clear: $clear;
+  width: $width;
+  float: $float;
+  overflow: $overflow;
+}
+
+p {
+  line-height: $line-height !important;
+}
